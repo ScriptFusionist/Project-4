@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(45deg, #e6f7ff, #d0e8ff, #b2e0ff, #94d2ff, #74c4ff);
+  background: linear-gradient(45deg, #d0e8ff, #b2d8ff, #94c8ff, #74b8ff, #549eff); /* Warna lebih muda */
   background-size: 300% 300%;
   animation: gradientShift 10s ease infinite;
   display: flex;
@@ -27,7 +27,7 @@ body {
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  background-color: #fff;
+  background-color: #f0f8ff; /* Warna lebih muda */
   width: 100%;
   max-width: 350px;
   position: relative;
@@ -35,7 +35,7 @@ body {
 }
 
 .card:hover {
-  background-color: #e6f7ff;
+  background-color: #d0e8ff; /* Highlight lebih terang */
   box-shadow: 0 12px 30px rgba(135, 206, 235, 0.5);
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .card-img-top {
-  border-bottom: 5px solid #1e90ff; /* Warna biru */
+  border-bottom: 5px solid #407bff; /* Biru gelap lebih lembut */
   transition: transform 0.2s ease;
   border-radius: 15px;
 }
@@ -61,24 +61,24 @@ body {
 
 .quote {
   font-style: italic;
-  color: #888;
+  color: #666; /* Warna lebih netral */
   margin-bottom: 15px;
 }
 
 h5.card-title {
   font-size: calc(1.2rem + 0.5vw);
-  color: #1e90ff; /* Warna biru */
+  color: #407bff; /* Warna biru gelap lebih lembut */
 }
 
 .card-title {
   font-weight: bold;
-  color: #1e90ff; /* Warna biru */
+  color: #407bff; /* Warna biru gelap */
   margin-bottom: 10px;
   text-shadow: 0 0 8px rgba(135, 206, 250, 0.7);
 }
 
 .btn-custom {
-  background: linear-gradient(45deg, #1e90ff, #74c4ff); /* Warna biru */
+  background: linear-gradient(45deg, #407bff, #74b8ff); /* Warna biru lebih cerah */
   color: #fff;
   border-radius: 50px;
   padding: 10px 20px;
@@ -107,7 +107,7 @@ h5.card-title {
 }
 
 .btn-custom:hover {
-  background: linear-gradient(45deg, #74c4ff, #1e90ff); /* Warna biru */
+  background: linear-gradient(45deg, #74b8ff, #407bff); /* Highlight lebih cerah */
   transform: scale(1.1);
 }
 
@@ -137,13 +137,13 @@ h5.card-title {
 }
 
 .nav-tabs {
-  border-bottom: 2px solid #1e90ff; /* Warna biru */
+  border-bottom: 2px solid #407bff; /* Warna biru gelap lebih lembut */
   justify-content: center;
   padding: 0;
 }
 
 .nav-tabs .nav-item .nav-link {
-  color: #1e90ff; /* Warna biru */
+  color: #407bff; /* Warna biru gelap */
   border: none;
   border-bottom: 2px solid transparent;
   padding: 10px 15px;
@@ -152,12 +152,12 @@ h5.card-title {
 }
 
 .nav-tabs .nav-item .nav-link:hover {
-  color: #74c4ff; /* Warna biru muda */
+  color: #74b8ff; /* Warna biru lebih cerah */
 }
 
 .nav-tabs .nav-item .nav-link.active {
-  color: #74c4ff; /* Warna biru muda */
-  border-bottom-color: #1e90ff; /* Warna biru */
+  color: #74b8ff; /* Warna biru lebih cerah */
+  border-bottom-color: #407bff; /* Warna biru gelap */
 }
 
 .tab-content {
